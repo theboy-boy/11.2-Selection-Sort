@@ -23,7 +23,6 @@ public class Main {
             for (int t = i+1; t < array.length; t++){
                 if (array[t] < array[savedIndex]){
                     savedIndex = t;
-                    System.out.println("yes");
                 }
             }
             int tempValue=array[i];
